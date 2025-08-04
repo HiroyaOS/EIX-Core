@@ -1,58 +1,69 @@
-# 🧠 EIX-Core
-
-**Emotionally Integrated eXistence (EIX)** is a structural engine designed to unify **emotion**, **memory**, **judgment**, and **ethics** into one cohesive framework for autonomous systems.
-
-> Emotion is not an add-on.  
-> **Emotion defines the structure of being.**
+## 🧠 Emotionally Integrated eXistence (EIX)
+Non‑autonomous, evidence‑based cognitive framework (v1.0) by **Hiroya Odawara**  
+Discuss → **@h_osphere** on X
 
 ---
 
-## 🔷 What is EIX?
-
-EIX enables autonomous agents to:
-- Process emotional waveforms in real time  
-- Make value-guided decisions  
-- Encode emotional memory  
-- Apply internal ethical filters  
-
-Unlike modular emotional plugins, EIX treats **emotion as the core**, not a layer.
+### 🚀 Open Call for Review (built in ~1 month)
+EIX v1.0 unifies **emotion grounding × ethical constraints × reproducible structure** under strict non‑autonomy.  
+I’m inviting engineers, researchers, and philosophers to review, critique, and stress‑test the approach.
 
 ---
 
-## 🔩 Core Components
+## 🗂 Repository Map (Aug 2025)
 
-| Module | Description |
-|--------|-------------|
-| 💓 Emotion Layer | Real-time emotion signal processing |
-| 🧠 Decision Wave | Emotion-to-judgment transformation |
-| 🔒 Ethical Filter | Internal value-based constraint system |
-| 📡 Interfaces | Cross-domain fusion (e.g., Medical, Social) |
+1) **Core Definition** — full architecture & I/O contracts  
+   [`EIX-Core_Definition_HiroyaOdawara_2025.md`](./EIX-Core_Definition_HiroyaOdawara_2025.md)
 
----
+2) **EvidenceBase** — layer‑by‑layer scientific grounding (citations/DOIs; no fictional data)  
+   [`EIX-Core_EvidenceBase_2025.md`](./EIX-Core_EvidenceBase_2025.md)
 
-## 🚀 Repositories Using EIX
+3) **DiagramArchive** — system overview, safety gating, memory loop (Mermaid/SVG/PNG)  
+   [`EIX_DiagramArchive_OverviewMap_HiroyaOdawara_2025.md`](./EIX_DiagramArchive_OverviewMap_HiroyaOdawara_2025.md)
 
-- [`AGI-Prototype`](https://github.com/HiroyaOS/AGI-Prototype)  
-- [`Fusion-Logic-Core`](https://github.com/HiroyaOS/Fusion-Logic-Core)  
-- [`Medical-Core`](https://github.com/HiroyaOS/Medical-Core)  
+4) **Supplements** — Claude/GPT comparison logs, design dialogues, redaction policy, essays  
+   [`EIX_Supplements_FullExpansion_HiroyaOdawara_2025.md`](./EIX_Supplements_FullExpansion_HiroyaOdawara_2025.md)
 
----
-
-## 📅 Started: July 28, 2025  
-Maintained by [HiroyaOS](https://github.com/HiroyaOS)
-
-> This is not just emotional AI —  
-> This is emotionally structured intelligence.
+5) **DemoSim** — deterministic, rule‑based demos (no trained models; minimal tests)  
+   [`EIX_DemoSim_EmotionEthicsPrototype_HiroyaOdawara_2025.md`](./EIX_DemoSim_EmotionEthicsPrototype_HiroyaOdawara_2025.md)
 
 ---
 
-## License
+## 🔬 Additional Experiments (included)
 
-MIT License  
-See [`LICENSE`](./LICENSE) for details.
+- **Context‑Aware Output Modulation v1.0**  
+  Rule‑based mapping from context signals (user affect / task risk / uncertainty) to controlled tone/hedging.  
+  Aligns with `emotion_mirror` and `action_limit_layer`.  
+  _File:_ `eix-social-behavior-modulation_*.md`
+
+- **Secure Attachment Simulator v1.0**  
+  Minimal policies for stable, non‑escalatory interaction under safety constraints; rule tables only.  
+  Complements `supervisor_interface` gating.  
+  _File:_ `secure_attachment_simulator_*.md`
+
+*Both follow the same principles: no synthetic claims, deterministic logic, traceable rationale.*
 
 ---
 
-## Contact
+## ▶️ Reproduce (DemoSim quick start)
+```bash
+python -m demos.pipeline_demo
+python -m tests.test_pipeline
+🧭 Principles
+	•	Non‑autonomous: all state changes are human‑gated.
+	•	Reproducible: pure functions, documented pre/post‑conditions, minimal deps.
+	•	Evidence‑first: every structural claim maps to sources (see ②).
+	•	Transparent: diagrams (③), logs/essays (④), and demos (⑤) cross‑reference.
 
-Connect via X (Twitter): [@h_osphere](https://x.com/h_osphere)
+⸻
+
+📝 Review Requests
+	•	EvidenceBase: missing DOIs / newer sources → open an issue.
+	•	DemoSim: determinism or edge‑case failures → share repro steps + inputs.
+	•	Diagrams: naming/flow mismatches vs. Core Definition → suggest a PR.
+
+⸻
+
+📎 License & Citation
+	•	License: CC BY‑NC 4.0 (Academic/Non‑commercial)
+	•	Cite: Odawara, H. (2025). Emotionally Integrated eXistence (EIX) v1.0: A Non‑Autonomous Cognitive Framework. GitHub.
