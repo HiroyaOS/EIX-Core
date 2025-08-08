@@ -1,9 +1,11 @@
 Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
 # EIX-Core Structural Blueprint — Comprehensive Layer Definitions, Logic, and Scientific Foundation
 
-Author: Hiroya Odawara
-Date: August 4, 2025
-Version: 1.0 - Fully Verifiable, Non-Autonomous, Scientifically Grounded
+Author: Hiroya Odawara  
+Published: August 4, 2025  
+Last updated: August 8, 2025  
+Version: v1.0.0 — Fully Verifiable, Non-Autonomous, Scientifically Grounded  
+License: Docs — CC BY 4.0 (/docs/LICENSE-CC-BY-4.0.md) | Code — Apache-2.0 (/LICENSE, /NOTICE)
 
 ⸻
 
@@ -202,4 +204,4 @@ It is a scientifically structured cognition scaffold for emotionally aware, ethi
 
 All structures are modular, non-autonomous, and conform to academic reproducibility standards.
 
-— Hiroya Odawara, August 04, 2025
+— Hiroya Odawara, August 08, 2025
