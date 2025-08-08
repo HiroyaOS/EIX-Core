@@ -1,9 +1,9 @@
-📘 EIX-Supplements — Developmental, Comparative, and Philosophical Expansion
+Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
+# EIX-Supplements - Developmental, Comparative, and Philosophical Expansion
 
-Document Type: Structural Supplement Repository for EIX-Core
 Author: Hiroya Odawara
 Date: August 2025
-Version: 1.0 — Full Disclosure, High-Density, Evidence-Centered
+Version: 1.0 - Full Disclosure, High-Density, Evidence-Centered
 
 ⸻
 
