@@ -1,9 +1,11 @@
 Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
-# EIX EvidenceBase - Scientific Foundations for Emotionally Integrated eXistence
+# EIX EvidenceBase — Scientific Foundations for Emotionally Integrated eXistence
 
-Author: Hiroya Odawara
-Date: August 4, 2025
-Version: v1.0 - Verified, Non-Autonomous, Citation-Based
+Author: Hiroya Odawara  
+Published: August 4, 2025  
+Last updated: August 8, 2025  
+Version: v1.0.0 — Verified, Non-Autonomous, Citation-Based  
+License: Docs — CC BY 4.0 (/docs/LICENSE-CC-BY-4.0.md) | Code — Apache-2.0 (/LICENSE, /NOTICE)
 
 ⸻
 
@@ -145,5 +147,5 @@ This repository ensures that every architectural claim in EIX-Core is scientific
 
 No components were derived from fictional assumptions, LLM hallucinations, or speculative AGI projections.
 
-— Hiroya Odawara, August 4, 2025
+— Hiroya Odawara (Last updated: 2025-08-08)
 Evidence is not an appendix. It is the core of reproducible, trustworthy cognition.
