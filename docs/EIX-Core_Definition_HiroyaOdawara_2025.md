@@ -1,7 +1,9 @@
+Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
 # EIX-Core: Emotionally Integrated eXistence — Structural Prototype
 
-> Created by **Hiroya Odawara** | August 4, 2025  
-> License: CC BY-NC 4.0 | Status: Scientifically Verifiable, Non-Autonomous
+Author: Hiroya Odawara
+Date: August 4, 2025
+Version: v1.0 — Scientifically Verifiable, Non-Autonomous
 
 ---
 
