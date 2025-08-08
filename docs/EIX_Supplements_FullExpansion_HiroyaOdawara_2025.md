@@ -1,11 +1,13 @@
 Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
-# EIX-Supplements - Developmental, Comparative, and Philosophical Expansion
+# EIX-Supplements — Developmental, Comparative, and Philosophical Expansion
 
-Author: Hiroya Odawara
-Date: August 2025
-Version: 1.0 - Full Disclosure, High-Density, Evidence-Centered
+Author: Hiroya Odawara  
+Published: August 4, 2025  
+Last updated: August 8, 2025  
+Version: v1.0.0 — Full Disclosure, High-Density, Evidence-Centered  
+License: Docs — CC BY 4.0 (/docs/LICENSE-CC-BY-4.0.md) | Code — Apache-2.0 (/LICENSE, /NOTICE)
 
-⸻
+---
 
 🧠 Purpose
 
@@ -88,4 +90,4 @@ EIX-Supplements exists to contextualize and defend the structural decisions made
 
 This repository is intended for scholars, auditors, and future systems engineers evaluating how ethics, emotion, and epistemology can form a reproducible cognitive architecture.
 
-— Hiroya Odawara, August 2025
+— Hiroya Odawara, August 8, 2025
