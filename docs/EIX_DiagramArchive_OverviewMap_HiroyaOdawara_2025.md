@@ -1,10 +1,11 @@
 Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
 # EIX-DiagramArchive — Structural and Cognitive Visualization Suite
 
-Author: Hiroya Odawara
-Date: August 2025
-Version: 1.0 – Scientifically Grounded, Fully Reproducible, Non-Autonomous
-
+Author: Hiroya Odawara  
+Published: August 4, 2025  
+Last updated: August 8, 2025  
+Version: v1.0.0 — Scientifically Grounded, Fully Reproducible, Non-Autonomous  
+License: Docs — CC BY 4.0 (/docs/LICENSE-CC-BY-4.0.md) | Code — Apache-2.0 (/LICENSE, /NOTICE)
 ---
 
 ## 🧠 Purpose
@@ -221,4 +222,4 @@ It is a scientific visualization toolkit for grounding cognitively ambitious (AG
 
 Visuals are structurally faithful; interpretation is academically intended.
 
-— Hiroya Odawara, August 2025
+— Hiroya Odawara, August 8, 2025
