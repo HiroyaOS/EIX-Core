@@ -1,9 +1,9 @@
-📘 EIX EvidenceBase — Scientific Foundations for Emotionally Integrated eXistence
+Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
+# EIX EvidenceBase - Scientific Foundations for Emotionally Integrated eXistence
 
 Author: Hiroya Odawara
 Date: August 4, 2025
-Version: v1.0 – Verified, Non-Autonomous, Citation-Based
-Relation: This document supplements EIX-Core, providing scientific justification for each structural layer (Emotion, Memory, Ethics, Self, Sensor, Integration) in the EIX architecture. All references are from peer-reviewed research, institutional safety frameworks, or validated datasets. No speculative or simulated information is used.
+Version: v1.0 - Verified, Non-Autonomous, Citation-Based
 
 ⸻
 
