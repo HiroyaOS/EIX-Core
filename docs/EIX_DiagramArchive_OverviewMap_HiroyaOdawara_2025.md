@@ -1,47 +1,48 @@
 Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
-# EIX-DiagramArchive — Structural and Cognitive Visualization Suite
 
-Author: Hiroya Odawara  
-Published: August 4, 2025  
-Last updated: August 8, 2025  
-Version: v1.0.0 — Scientifically Grounded, Fully Reproducible, Non-Autonomous  
+📘 EIX-DiagramArchive — Structural and Cognitive Visualization Suite
+
+Author: Hiroya Odawara
+Published: August 4, 2025
+Last updated: August 8, 2025
+Version: v1.0.0 — Scientifically Grounded, Fully Reproducible, Non-Autonomous
 License: Docs — CC BY 4.0 (/docs/LICENSE-CC-BY-4.0.md) | Code — Apache-2.0 (/LICENSE, /NOTICE)
 
----
+⸻
 
-## 🧠 Purpose
+🧠 Purpose
 
-This repository visualizes the structural logic, flow dynamics, and inter‑module relationships of the EIX‑Core cognitive architecture. It complements:
-- `EIX-Core_Definition_HiroyaOdawara_2025.md` (core structure)
-- `EIX_EvidenceMap_2025.md` (scientific foundations)
+This repository visualizes the structural logic, flow dynamics, and inter-module relationships of the EIX-Core cognitive architecture. It complements:
+	•	EIX-Core_Definition_HiroyaOdawara_2025.md (core structure)
+	•	EIX_EvidenceMap_2025.md (scientific foundations)
 
-All diagrams are derived from real module definitions and peer‑reviewed theory. **No speculative or fictional constructs.**
+All diagrams are derived from real module definitions and peer-reviewed theory. No speculative or fictional constructs.
 
----
+⸻
 
-## 🧩 Contents
+🧩 Contents
 /EIX-DiagramArchive/
 ├── README.md
-└── /diagrams/
-├── eix_overview.mmd / .svg / .png
-├── layer_interactions.mmd / .svg / .png
-├── memory_update_loop.mmd / .svg / .png
-├── ethics_filter_chain.mmd / .svg / .png
-└── input_output_flow.mmd / .svg / .png
+└── diagrams/
+    ├── eix_overview.mmd / .svg / .png
+    ├── layer_interactions.mmd / .svg / .png
+    ├── memory_update_loop.mmd / .svg / .png
+    ├── ethics_filter_chain.mmd / .svg / .png
+    └── input_output_flow.mmd / .svg / .png
 Each diagram includes:
-- ✅ Mermaid source (`.mmd`) for version‑controlled editing  
-- ✅ Exported `.svg` and `.png` for cross‑platform viewing  
-- ✅ Metadata: author, timestamp, module references, commit hash (if applicable)
+	•	✅ Mermaid source (.mmd) for version-controlled editing
+	•	✅ Exported .svg and .png for cross-platform viewing
+	•	✅ Metadata: author, timestamp, module references, commit hash (if applicable)
 
----
+⸻
 
-## 🔍 Diagram Set (Mermaid Source Included)
+🔍 Diagram Set (Mermaid Source Included)
 
-> Paste each block into `/diagrams/*.mmd`. You can also keep them embedded here for immediate render on GitHub.
+Paste each block into /diagrams/*.mmd, or keep them embedded here for GitHub render.
 
-### 1) System Overview — Six‑Layer Map
-**File:** `diagrams/eix_overview.mmd`
-```mermaid
+1) System Overview — Six-Layer Map
+
+File: diagrams/eix_overview.mmd
 flowchart LR
   %% ===== LAYERS =====
   subgraph SENSOR[Sensor Layer]
@@ -99,6 +100,7 @@ flowchart LR
 File: diagrams/layer_interactions.mmd
 flowchart TB
   INP[[External Input]]
+
   subgraph SENSOR[Sensor]
     P1(parse_input)
   end
@@ -119,6 +121,7 @@ flowchart TB
   subgraph INTEG[Integration]
     I1(integration_cycle)
   end
+
   OUT((Final Safe Output))
 
   INP --> P1 --> E1
@@ -132,7 +135,7 @@ flowchart TB
 
   I1 --> W1
   W1 --> R1
-3) Memory Update Loop — Human‑Gated Sequence
+3) Memory Update Loop — Human-Gated Sequence
 
 File: diagrams/memory_update_loop.mmd
 sequenceDiagram
@@ -194,33 +197,29 @@ flowchart LR
 	•	Diagrams reflect exact operational logic of implemented/defined modules.
 	•	Built for academic replication, technical onboarding, and safety auditing.
 	•	Emotional logic (emotion_mirror), gating (goal_lock, action_limit_layer), and integration coherence are visually distinct and traceable.
-	•	No speculation: every node/flow is grounded in existing structural definitions (see ① and ②).
+	•	No speculation: every node/flow is grounded in existing structural definitions (see Definition & EvidenceBase).
 
 ⸻
 
-🔄 Cross‑Referencing & Traceability
+🔄 Cross-Referencing & Traceability
 
 Each visual element links to:
 	•	Real functions/modules in /EIX-Core/modules/
 	•	Citations in EIX_EvidenceMap_2025.md
 	•	Logic explained in EIX-Core_StructureSupplement.md
 
-Diagrams are optimized for structural transparency for AI safety reviewers, cognitive architecture researchers, and reproducibility evaluators.
-
 ⸻
 
 📎 Licensing
-	•	License: CC BY‑NC 4.0 (Academic/Research Use Only)
-	•	Attribution: Hiroya Odawara (2025)
-	•	Redistribution must preserve source metadata and structural integrity.
+	•	Docs: CC BY 4.0 — attribution required: © 2025 Hiroya Odawara
+	•	Redistribution: preserve source metadata and structural integrity.
 
 ⸻
 
 🧠 Final Note
 
 This repository is not concept art or a UX mockup.
-It is a scientific visualization toolkit for grounding cognitively ambitious (AGI‑level) structures in emotion‑aware, ethics‑locked, non‑autonomous design logic.
-
+It is a scientific visualization toolkit for emotion-aware, ethics-locked, non-autonomous design logic.
 Visuals are structurally faithful; interpretation is academically intended.
 
 — Hiroya Odawara, August 8, 2025
