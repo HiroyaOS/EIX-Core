@@ -1,9 +1,9 @@
- 📘 EIX-DiagramArchive — Structural and Cognitive Visualization Suite
+Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
+# EIX-DiagramArchive — Structural and Cognitive Visualization Suite
 
-**Document Type:** Visual Specification Repository for EIX-Core  
-**Author:** Hiroya Odawara  
-**Date:** August 2025  
-**Version:** 1.0 — Scientifically Grounded, Fully Reproducible, Non-Autonomous
+Author: Hiroya Odawara
+Date: August 2025
+Version: 1.0 – Scientifically Grounded, Fully Reproducible, Non-Autonomous
 
 ---
 
