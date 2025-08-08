@@ -1,8 +1,9 @@
-📘 EIX-Core Structural Blueprint — Comprehensive Layer Definitions, Logic, and Scientific Foundation
+Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
+# EIX-Core Structural Blueprint — Comprehensive Layer Definitions, Logic, and Scientific Foundation
 
 Author: Hiroya Odawara
-Date: August 04, 2025
-Version: 1.0 – Fully Verifiable, Non-Autonomous, Scientifically Grounded
+Date: August 4, 2025
+Version: 1.0 - Fully Verifiable, Non-Autonomous, Scientifically Grounded
 
 ⸻
 
