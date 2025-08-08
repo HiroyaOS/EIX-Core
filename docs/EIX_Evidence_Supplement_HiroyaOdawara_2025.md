@@ -1,9 +1,9 @@
-📘 EIX EvidenceBase — Supplemental Technical Expansion
+Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
+# EIX EvidenceBase - Supplemental Technical Expansion
 
-Document Type: Structural Supplement to EIX-Core_EvidenceMap_2025.md
 Author: Hiroya Odawara
 Date: August 2025
-Version: 1.0 — Scientifically Grounded, Non-Autonomous, Fully Transparent
+Version: 1.0 - Scientifically Grounded, Non-Autonomous, Fully Transparent
 
 ⸻
 
