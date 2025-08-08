@@ -1,9 +1,11 @@
 Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
-# EIX EvidenceBase - Supplemental Technical Expansion
+# EIX EvidenceBase — Supplemental Technical Expansion
 
-Author: Hiroya Odawara
-Date: August 2025
-Version: 1.0 - Scientifically Grounded, Non-Autonomous, Fully Transparent
+Author: Hiroya Odawara  
+Published: August 4, 2025  
+Last updated: August 8, 2025  
+Version: v1.0.0 — Scientifically Grounded, Non-Autonomous, Fully Transparent  
+License: Docs — CC BY 4.0 (/docs/LICENSE-CC-BY-4.0.md) | Code — Apache-2.0 (/LICENSE, /NOTICE)
 
 ⸻
 
@@ -105,4 +107,4 @@ These metrics will be detailed further in a future eix_evaluation_metrics.md fil
 EIX is built not to imitate life, but to anchor cognition frameworks in emotion-aware, ethically-constrained, and scientifically grounded structures.
 This supplement closes interpretive gaps, fortifies reproducibility, and aligns design intent with scholarly evidence.
 
-— Hiroya Odawara, August 2025
+— Hiroya Odawara, August 8, 2025
