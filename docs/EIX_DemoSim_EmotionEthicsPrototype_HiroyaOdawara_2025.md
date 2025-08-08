@@ -1,9 +1,10 @@
-📘 EIX‑DemoSim — Deterministic Prototypes for Emotion‑Aware, Ethics‑Locked Cognition
+Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
+# EIX-DemoSim — Deterministic Prototypes for Emotion-Aware, Ethics-Locked Cognition
+
 
 Author: Hiroya Odawara
 Date: August 4, 2025
 Version: 1.0 — Deterministic, Non‑Autonomous, Reproducible
-License: CC BY‑NC 4.0
 
 ⸻
 
