@@ -139,5 +139,5 @@ It does not simulate consciousness; it simulates structured emotional cognition 
 EIX-Core offers a reproducible, ethics-first foundation for emotionally aware cognition under strict human control.
 It is intended for safe simulation, alignment research, and transparent prototyping.
 
-— Hiroya Odawara, 2025.08.04
+— Hiroya Odawara, 2025.08.08
 “Emotion × Structure × Ethics = Safe Intelligence”
