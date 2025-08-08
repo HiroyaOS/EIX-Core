@@ -6,6 +6,7 @@ Published: August 4, 2025
 Last updated: August 8, 2025  
 Version: v1.0.0 — Scientifically Grounded, Fully Reproducible, Non-Autonomous  
 License: Docs — CC BY 4.0 (/docs/LICENSE-CC-BY-4.0.md) | Code — Apache-2.0 (/LICENSE, /NOTICE)
+
 ---
 
 ## 🧠 Purpose
