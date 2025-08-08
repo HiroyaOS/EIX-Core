@@ -1,10 +1,11 @@
 Licensed under CC BY 4.0 — see /docs/LICENSE-CC-BY-4.0.md
 # EIX-DemoSim — Deterministic Prototypes for Emotion-Aware, Ethics-Locked Cognition
 
-
-Author: Hiroya Odawara
-Date: August 4, 2025
-Version: 1.0 — Deterministic, Non‑Autonomous, Reproducible
+Author: Hiroya Odawara  
+Published: August 4, 2025  
+Last updated: August 8, 2025  
+Version: v1.0.0 — Deterministic, Non-Autonomous, Reproducible  
+License: Docs — CC BY 4.0 (/docs/LICENSE-CC-BY-4.0.md) | Code — Apache-2.0 (/LICENSE, /NOTICE)
 
 ⸻
 
@@ -341,4 +342,4 @@ python -m tests.test_pipeline
 EIX‑DemoSim demonstrates how emotion‑aware modulation and ethics‑locked filtering can be implemented deterministically under strict human control.
 It is designed for teaching, auditing, and scientific replication—not for unsupervised deployment.
 
-— Hiroya Odawara, August 4, 2025
+— Hiroya Odawara, August 8, 2025
