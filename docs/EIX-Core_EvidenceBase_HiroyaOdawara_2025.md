@@ -2,7 +2,7 @@
 
 **Author:** Hiroya Odawara  
 **Published:** August 4, 2025  
-**Last updated:** August 8, 2025  
+**Last updated:** August 12, 2025  
 **Version:** v1.0.0 — Verified, Non-Autonomous, Citation-Based  
 **License:** Docs — CC BY 4.0 (/docs/LICENSE-CC-BY-4.0.md)  
 **Code License:** Apache-2.0 (/LICENSE, /NOTICE)
@@ -136,7 +136,7 @@ Each layer has traceable citations and is compatible with non-autonomous, safety
 
 No components were derived from fictional assumptions, LLM hallucinations, or speculative AGI projections.
 
-— Hiroya Odawara (Last updated: 2025-08-08)  
+— Hiroya Odawara (Last updated: 2025-08-12)  
 
 *Evidence is not an appendix. It is the core of reproducible, trustworthy cognition.*
 """
