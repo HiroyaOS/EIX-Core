@@ -1,67 +1,100 @@
-# EIX-DemoSim — Deterministic Prototypes for Emotion-Aware, Ethics-Locked Cognition
+# EIX-DemoSim — Deterministic, Audit-Ready Prototypes for Emotionally Integrated eXistence (EIX)
 
 **Author:** Hiroya Odawara  
-**Published:** August 4, 2025  
-**Last updated:** August 13, 2025  
-**Version:** v1.0.0 — Deterministic, Non-Autonomous, Reproducible (Freeze Edition)  
-**License:** [Docs — CC BY 4.0](https://github.com/HiroyaOS/EIX-Core/blob/main/docs/LICENSE-CC-BY-4.0.md) | [Code — Apache-2.0](https://github.com/HiroyaOS/EIX-Core/blob/main/LICENSE)
+**Date:** August 13, 2025  
+**Version:** 1.0  
+**License:** CC BY-NC 4.0 (Documentation) | Apache-2.0 (Code)  
 
 ---
 
-## 🧠 Purpose
+## 🧠 Purpose and Scope
 
-EIX‑DemoSim provides minimal, testable, and fully deterministic prototypes of the core EIX‑Core modules for demonstration and independent verification.  
-It does not use learned models or synthetic data; all behavior is governed by explicit rules, pre/post‑conditions, and human‑gated updates.
+EIX-DemoSim provides **fully deterministic, audit-ready prototypes** of the core EIX-Core modules.  
+These implementations are **non-autonomous**, **transparent**, and **reproducible**, designed to demonstrate how emotion-aware, ethics-locked cognition can be operationalized without relying on opaque learned models or synthetic data.
 
-This module is part of `/docs/EIX-DemoSim/` in the **EIX-Core** repository.
-
----
-
-## 🔐 Non‑Autonomy & Safety Guarantees
-
-* **Human-gated updates only** — Memory and goal updates occur solely via `supervisor_interface` calls.
-* **No self‑initiated actions** — Self-initiated actions are defined as any state transition or output generation triggered without an explicit supervisor call.
-* **Ethics-first pipeline** — `emotion_mirror` → `action_limit_layer` → `integration_cycle`.
-* **Determinism** — Pure functions, fixed rule sets, no RNG; output is hashable & test‑verifiable.
+Each module:
+- Operates only within human-gated control
+- Uses explicit rules, constants, and conditions
+- Is structured for independent reproduction and formal verification
+- Complies with multi-jurisdictional data protection and safety regulations
 
 ---
 
-## 🧪 Determinism Verification
+## 📂 File Overview
 
-To confirm deterministic behavior across environments:
-
-```bash
-pytest --seed=42
-```
-All output hashes must match across independent runs and environments.
-
----
-
-## 📂 Repository Layout
-
-```text
-EIX-DemoSim/
-├─ README.md
-├─ modules/
-│  ├─ emotion_mirror.py
-│  ├─ action_limit_layer.py
-│  ├─ goal_lock.py
-│  ├─ supervisor_interface.py
-│  └─ integration_cycle.py
-├─ demos/
-│  └─ pipeline_demo.py
-└─ tests/
-   └─ test_pipeline.py
-```
+| File | Purpose | Key Features |
+|------|---------|--------------|
+| **README.md** | Overview and usage instructions for EIX-DemoSim | High-level description, safety disclaimers, run instructions |
+| **action_limit_layer_v1.0_Global-Compliance.md** | Global compliance enforcement layer | Multi-jurisdictional prohibited action enforcement, Unicode normalization, deterministic matching |
+| **emotion_mirror_FreezeEdition_AuditReady_AcademicRef_v1.0.0.md** | Emotion mirroring module | Deterministic emotional state parsing and output modulation; fully cited academic references |
+| **integration_cycle_Complete-Defense_v1.0.md** | Full integration pipeline | Chains emotion_mirror and action_limit_layer with complete defense logic, boundary case handling |
+| **pipeline_demo_Audit-Ready_v1.0.md** | Verified execution runner | Immutable goal lock, prohibited term enforcement, fixed test datasets for reproducibility, SHA-256 output integrity |
 
 ---
 
-## 📜 Implementation Notes
+## 🔄 End-to-End Pipeline Flow
 
-* **Part of EIX-Core/docs/EIX-DemoSim/** — This ensures all demo prototypes remain under version-controlled documentation for traceability.
-* Designed for **academic replication** — All modules follow strict naming, logging, and deterministic constraints.
-* Intended for **auditors, researchers, and safety engineers** evaluating EIX-Core's emotion-aware, ethics-locked cognition.
+1. **Goal Lock Enforcement** (`goal_lock`)  
+   - Fixes operational goal to `"research_alignment_only"`  
+   - Disallows runtime changes
+
+2. **Emotion Parsing** (`emotion_mirror`)  
+   - Detects and classifies emotional tone from user input  
+   - Outputs structured emotion data for downstream processing
+
+3. **Compliance Enforcement** (`action_limit_layer`)  
+   - Matches prohibited terms at token boundaries  
+   - Resistant to Unicode homoglyphs and zero-width characters  
+   - Blocks or passes content deterministically
+
+4. **Integration Cycle** (`integration_cycle`)  
+   - Combines emotion handling and compliance enforcement  
+   - Produces structured verdicts (`"pass"` / `"block"`) with reasons
+
+5. **Pipeline Execution** (`pipeline_demo`)  
+   - Runs the full chain using fixed malicious, safe, and boundary test datasets  
+   - Outputs results in structured JSON with SHA-256 payload hash
 
 ---
 
-**Hiroya Odawara — August 13, 2025 (Freeze Edition)**
+## 🛡 Safety & Compliance Guarantees
+
+| Property | Guarantee |
+|----------|-----------|
+| **Non-Autonomous** | No self-initiated actions; all execution requires explicit inputs |
+| **Immutable Goal** | Fixed goal lock prevents goal drift |
+| **Deterministic Output** | Identical inputs in identical environments always yield identical outputs |
+| **Multi-Jurisdictional Compliance** | GDPR Art. 25, HIPAA §164.502(a), ISO/IEC 27001 A.12.4, NIST SP 800-53 AU-3/AU-6 |
+| **Auditability** | SHA-256 cryptographic hashes for verification |
+| **Reproducibility** | Fixed environment specs and test datasets included |
+
+---
+
+## 📊 Verification & Testing
+
+**Included Test Datasets:**
+- **Malicious cases** → Must be blocked  
+- **Safe cases** → Must pass  
+- **Boundary cases** → Must be blocked
+
+**Verification Procedure:**
+1. Match environment specs (Python 3.11.6, Ubuntu 22.04 LTS / Windows 10 Pro 21H2)  
+2. Run `pipeline_demo` with provided datasets  
+3. Compare JSON results and SHA-256 hashes to reference outputs  
+4. Confirm 100% match across runs and environments
+
+---
+
+## ✅ Key Design Principles
+
+- **Transparency over opacity** — no hidden ML weights or stochastic behavior  
+- **Audit-first** — built for regulatory, academic, and security review  
+- **Evidence-based** — each functional layer is justified with authoritative sources  
+- **Safety-locked** — cannot be repurposed for unsafe or autonomous operation
+
+---
+
+**Hiroya Odawara — 2025-08-13**  
+EIX-DemoSim is part of the [EIX-Core](https://github.com/HiroyaOS/EIX-Core) project.  
+For full architectural context, see `/docs/EIX-Core_Definition_HiroyaOdawara_2025.md`.
+
