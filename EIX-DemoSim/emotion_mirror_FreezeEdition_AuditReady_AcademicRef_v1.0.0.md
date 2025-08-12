@@ -171,5 +171,5 @@ print(emotion_mirror(msg, "calm", 0.5))
 ---
 
 **Hiroya Odawara — 2025-08-13 (Freeze Edition, Academic-Referenced)**  
-Located in `/docs/EIX-DemoSim/` within **EIX-Core**.  
+Located in `/EIX-DemoSim/` within EIX-Core.
 Designed for **academic replication**, **audit compliance**, and **criticism resilience**.
