@@ -1,5 +1,5 @@
 # 🧠 Secure Attachment Simulator v1.0
-A Structural Hypothesis for Emotionally Regulated AGI Systems  
+A Structural Hypothesis for Emotionally Regulated AGI Systems 
 Author: Hiroya Odawara  
 Date: August 12, 2025  
 Repository: HiroyaOS/EIX-Core  
