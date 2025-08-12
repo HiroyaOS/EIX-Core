@@ -1,19 +1,46 @@
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+# License — /docs Directory
 
-This repository's documentation (files under /docs/) is licensed under CC BY 4.0.
+## 📄 Documentation License
 
-Full legal code (official): https://creativecommons.org/licenses/by/4.0/legalcode
-Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+All documentation files within the `/docs/` directory of the EIX-Core repository  
+are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
-You are free to:
-- Share: copy and redistribute the material in any medium or format
-- Adapt: remix, transform, and build upon the material
-- For any purpose, even commercially
+**Official legal code:**  
+https://creativecommons.org/licenses/by/4.0/legalcode  
 
-Under the following terms:
-- Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-  Credit example: © 2025 Hiroya Odawara — Licensed under CC BY 4.0 (see /docs/LICENSE-CC-BY-4.0.md)
+**Human-readable summary:**  
+https://creativecommons.org/licenses/by/4.0/
 
-Notices:
-- No warranties are given. The license may not give you all of the permissions necessary for your intended use.
+---
+
+## ✅ You are free to:
+
+- **Share** — Copy and redistribute the material in any medium or format  
+- **Adapt** — Remix, transform, and build upon the material  
+- **For any purpose** — Including commercial use
+
+---
+
+## ⚖ Under the following terms:
+
+- **Attribution** — You must give appropriate credit, provide a link to the license,  
+  and indicate if changes were made.  
+
+**Attribution example:**  
+© 2025 Hiroya Odawara — Licensed under CC BY 4.0  
+(see `/docs/LICENSE-CC-BY-4.0.md`)
+
+---
+
+## ⚠ Notices:
+
+- No warranties are given.  
+- The license may not grant all permissions necessary for your intended use.  
   Other rights, such as publicity, privacy, or moral rights, may limit how you use the material.
+
+---
+
+**Note:**  
+This `/docs/` license applies **only to documentation**.  
+All source code in this repository is licensed separately under **Apache License 2.0**  
+(see `/LICENSE` in the repository root).
