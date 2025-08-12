@@ -1,75 +1,69 @@
-# 🧠 Emotionally Integrated eXistence (EIX)
+# EIX-Core — Emotionally Integrated eXistence
 
-Non-autonomous, evidence-based cognitive framework (v1.0) by **Hiroya Odawara**  
-Discuss → **@h_osphere** on X
-
----
-
-## 🚀 Open Call for Review
-EIX v1.0 unifies **emotion grounding × ethical constraints × reproducible structure** under **strict non-autonomy**.  
-Engineers, researchers, and philosophers — please review, critique, and stress-test.
+**Author:** Hiroya Odawara  
+**Last Updated:** August 13, 2025  
+**Version:** 1.0  
+**License:** Documentation — CC BY 4.0 (/docs/LICENSE-CC-BY-4.0.md) | Code — Apache-2.0 (/LICENSE, /NOTICE)  
+**Contact:** [X (Twitter) — @h_osphere](https://x.com/h_osphere)  
 
 ---
 
-## 🗂 Documentation (all long-form docs moved under [/docs](./docs/))
-- **Core Definition** — full architecture & I/O contracts  
-  [`EIX-Core_Definition_HiroyaOdawara_2025.md`](./docs/EIX-Core_Definition_HiroyaOdawara_2025.md)
-- **Structural Blueprint** — comprehensive layer definitions, logic, and foundations  
-  [`EIX-Core_Structural_Blueprint_HiroyaOdawara_2025.md`](./docs/EIX-Core_Structural_Blueprint_HiroyaOdawara_2025.md)
-- **EvidenceBase** — layer-by-layer scientific grounding (citations/DOIs; no fictional data)  
-  [`EIX-Core_EvidenceBase_HiroyaOdawara_2025.md`](./docs/EIX-Core_EvidenceBase_HiroyaOdawara_2025.md)
-- **EvidenceBase — Supplemental Technical Expansion**  
-  [`EIX_EvidenceBase_Supplement_TechnicalExpansion_HiroyaOdawara_2025.md`](./docs/EIX_EvidenceBase_Supplement_TechnicalExpansion_HiroyaOdawara_2025.md)
-- **DiagramArchive** — system overview, safety gating, memory loop (Mermaid/SVG/PNG)  
-  [`EIX_DiagramArchive_OverviewMap_HiroyaOdawara_2025.md`](./docs/EIX_DiagramArchive_OverviewMap_HiroyaOdawara_2025.md)
-- **Supplements (Full Expansion)** — comparisons, dialogues, philosophy, logs  
-  [`EIX_Supplements_FullExpansion_HiroyaOdawara_2025.md`](./docs/EIX_Supplements_FullExpansion_HiroyaOdawara_2025.md)
-- **DemoSim (Docs)** — deterministic, rule-based demos (no trained models)  
-  [`EIX_DemoSim_EmotionEthicsPrototype_HiroyaOdawara_2025.md`](./docs/EIX_DemoSim_EmotionEthicsPrototype_HiroyaOdawara_2025.md)
+## 🧠 Overview
+
+EIX-Core (**Emotionally Integrated eXistence**) is a **scientifically grounded, non-autonomous cognitive architecture** designed to integrate emotion-awareness, ethical alignment, and deterministic execution.  
+It serves as the core research framework for simulating **safe, explainable, and verifiable AI cognition**, with every layer backed by peer-reviewed evidence and compliant with multi-jurisdictional safety standards.
+
+This repository is divided into two main documentation and prototype areas:  
+- **/docs** — Architectural definitions, evidence bases, and structural supplements  
+- **/EIX-DemoSim** — Deterministic, audit-ready module prototypes
 
 ---
 
-## 🧭 Principles
-- **Non-autonomous**: all state changes are human-gated.  
-- **Reproducible**: pure functions, documented pre/post-conditions, minimal deps.  
-- **Evidence-first**: every structural claim maps to sources (see EvidenceBase).  
-- **Transparent**: diagrams, logs/essays, and demos cross-reference.
+## 📂 Repository Structure
+
+### 1. `/docs` — Core Documentation
+Comprehensive design, evidence, and reference materials for the EIX-Core architecture.
+
+| File | Purpose |
+|------|---------|
+| **EIX-Core_Definition_HiroyaOdawara_2025.md** | Full definition of the EIX-Core architecture, including structural layers, functional mapping, and safety constraints |
+| **EIX-Core_EvidenceBase_HiroyaOdawara_2025.md** | Consolidated peer-reviewed and empirical references supporting each cognitive layer |
+| **EIX-Core_StructureSupplement.md** | Additional architectural details and implementation considerations |
+| **EIX_DiagramArchive_OverviewMap_HiroyaOdawara_2025.md** | Visual diagrams and structural overviews |
+| **EIX_Evidence_Supplement_HiroyaOdawara_2025.md** | Extended evidence references and justifications |
+| **EIX_Supplements_FullExpansion_HiroyaOdawara_2025.md** | Full expansion of supplemental definitions and references |
+| **LICENSE-CC-BY-4.0.md** | Licensing terms for all /docs content (Creative Commons Attribution 4.0 International) |
 
 ---
 
-## 🧪 Experiments (included as docs)
-- **Context-Aware Output Modulation v1.0** — rule maps from affect/risk/uncertainty → tone/hedging.  
-  Aligns with `emotion_mirror` / `action_limit_layer`.  
-  File: `eix-social-behavior-modulation_*.md`
-- **Secure Attachment Simulator v1.0** — stable, non-escalatory interaction policies; rule tables only.  
-  Complements `supervisor_interface`.  
-  File: `secure_attachment_simulator_*.md`
+### 2. `/EIX-DemoSim` — Deterministic Prototypes
+Minimal, testable, **audit-ready** implementations of EIX-Core modules, built for reproducibility and independent verification.
+
+| File | Purpose |
+|------|---------|
+| **README.md** | Overview, pipeline flow, and safety guarantees for all demo modules |
+| **action_limit_layer_v1.0_Global-Compliance.md** | Multi-jurisdictional compliance enforcement module |
+| **emotion_mirror_FreezeEdition_AuditReady_AcademicRef_v1.0.0.md** | Deterministic emotion parsing and output modulation |
+| **integration_cycle_Complete-Defense_v1.0.md** | Full integration pipeline combining emotion and compliance layers |
+| **pipeline_demo_Audit-Ready_v1.0.md** | Verified execution runner with fixed test datasets |
 
 ---
 
-## ▶️ Reproduce (DemoSim – coming soon)
-A minimal deterministic demo pipeline will be published under `/examples/` (v1.1).  
-Current long-form docs live in `/docs`; modules/tests land in later tags.
+## 🔐 Safety & Compliance
+
+- **Non-Autonomous** — All execution is human-gated; no self-initiated actions  
+- **Immutable Goal Lock** — Prevents operational drift  
+- **Deterministic Output** — Identical inputs in identical environments yield identical outputs  
+- **Multi-Jurisdictional Compliance** — References GDPR Art. 25, HIPAA §164.502(a), ISO/IEC 27001 A.12.4, and NIST SP 800-53 AU-3/AU-6  
+- **Audit-Ready** — SHA-256 cryptographic output verification  
+- **Evidence-Based** — All structural elements backed by authoritative sources
 
 ---
 
-## 📝 Review Requests
-- **EvidenceBase**: missing DOIs / newer sources → open an issue.  
-- **DemoSim**: determinism or edge-case failures → share repro steps + inputs.  
-- **Diagrams**: naming/flow mismatches vs. Core Definition → suggest a PR.
+## 📬 Contact
+For inquiries, collaboration proposals, or verification requests:  
+**X (Twitter): [@h_osphere](https://x.com/h_osphere)**
 
 ---
 
-## 📎 License & Citation
-**License**  
-- **Code**: MIT (see [`/LICENSE`](./LICENSE))  
-- **Docs**: CC BY 4.0 (see [`/docs/LICENSE-CC-BY-4.0.md`](./docs/LICENSE-CC-BY-4.0.md))
-
-**Attribution example for docs**  
-© 2025 **Hiroya Odawara** — Licensed under CC BY 4.0 (see /docs/LICENSE-CC-BY-4.0.md).
-
-**Citation**  
-Odawara, **Hiroya** (2025). *Emotionally Integrated eXistence (EIX) v1.0: A Non-Autonomous Cognitive Framework*. GitHub.
-
-**Name style policy**  
-In prose we use **Hiroya Odawara**. In citations we use **Odawara, Hiroya**.
+© 2025 Hiroya Odawara — Documentation licensed under [CC BY 4.0](/docs/LICENSE-CC-BY-4.0.md), code licensed under Apache-2.0.
