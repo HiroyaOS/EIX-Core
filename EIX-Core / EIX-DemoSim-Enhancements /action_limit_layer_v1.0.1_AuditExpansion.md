@@ -1,7 +1,7 @@
 # EIX DemoSim — action_limit_layer v1.0.1 (Audit Expansion)
 
 **Author:** Hiroya Odawara  
-**Date:** 2025-08-17  
+**Date:** 2025-08-18
 **Scope:** Attestation, Policy Snapshot, Deterministic Replay, Reference (Golden) Tests (Auditability Enhancements)  
 **License:** CC BY-NC 4.0 (Documentation) | Apache-2.0 (Code)  
 **License Inheritance:** This v1.0.1 audit expansion inherits the same licenses as v1.0.0 (CC BY-NC 4.0 for docs, Apache-2.0 for code).  
@@ -31,7 +31,7 @@
 # EIX DemoSim — action_limit_layer v1.0.1 (Audit Expansion: Attestation, Policy Snapshot, Deterministic Replay)
 
 **Status:** Enhancement (non-breaking) • **Targets:** EIX-DemoSim `action_limit_layer@v1.0.0` • **Scope:** Auditability & Reproducibility  
-**Author:** Hiroya Odawara • **Date:** 2025-08-17
+**Author:** Hiroya Odawara • **Date:** 2025-08-18
 
 ---
 
